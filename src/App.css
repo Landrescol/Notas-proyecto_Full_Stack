@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+body {
+  background-color: #000000;
+  /* Color de fondo oscuro */
+  font-family: Arial, sans-serif;
+  /* Tipo de letra serio y formal */
+
+}
+
+
+
+
+
+.card {
+  height: 200px;
+  /* Altura constante de las tarjetas */
+}
+
+.card-text {
+  /* Utiliza toda la altura disponible */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Añade tres puntos suspensivos al final del texto */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* Número de líneas a mostrar antes de truncar */
+  -webkit-box-orient: vertical;
+}
